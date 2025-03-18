@@ -1,0 +1,17 @@
+id = "nasal-lang"
+name = "Nasal"
+version = "0.0.1"
+schema_version = 1
+authors = ["LIANG Sidi <sidi.liang@gmail.com>"]
+description = "Adds Nasal language support to Zed"
+repository = "https://github.com/your-name/my-zed-extension"
+license = "GPL-2.0"
+
+# Tree-sitter grammar(s) go under [grammars.X]
+# This is where you reference the repository containing your
+# tree-sitter-nasal grammar. If no grammar yet exists, you can
+# create a placeholder or point to your own WIP repository.
+
+[grammars.nasal]
+repository = "https://github.com/sidi762/tree-sitter-nasal"
+rev = "master"

@@ -1,0 +1,7 @@
+[
+  "(" ")"
+  "[" "]"
+  "{" "}"
+] @bracket
+
+(string) @bracket

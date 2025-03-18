@@ -1,0 +1,15 @@
+name = "Nasal"
+grammar = "nasal"
+
+# Associate .nas or .nasa or whichever suffix you want:
+path_suffixes = ["nas", "nasa", "nasal"]
+
+# Let Zed automatically comment lines with "#"
+line_comments = ["#"]
+
+# Possibly override indentation defaults (these are optional):
+tab_size = 4
+hard_tabs = false
+
+# If you want a first_line_pattern for detection in scripts:
+# first_line_pattern = '^#!.*nasal'
