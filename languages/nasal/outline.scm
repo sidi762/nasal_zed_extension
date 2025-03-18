@@ -1,7 +1,11 @@
-; Functions
+; Functions with names (excluding anonymous functions)
 (function_definition
-  name: (identifier) @name) @item
+  (identifier) @name) @item
 
-; Variables
+; Variable declarations with single identifiers
 (variable_declaration
-  name: (identifier) @name) @item
+  (identifier) @name) @item
+
+; Variable declarations with multi identifiers
+(variable_declaration
+  (multi_identifier) @name) @item

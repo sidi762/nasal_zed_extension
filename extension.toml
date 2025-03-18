@@ -1,10 +1,10 @@
-id = "nasal-lang"
+id = "nasal"
 name = "Nasal"
+description = "Nasal language support for Zed"
 version = "0.0.1"
 schema_version = 1
 authors = ["LIANG Sidi <sidi.liang@gmail.com>"]
-description = "Adds Nasal language support to Zed"
-repository = "https://github.com/your-name/my-zed-extension"
+repository = "https://github.com/sidi762/nasal_zed_extension"
 license = "GPL-2.0"
 
 # Tree-sitter grammar(s) go under [grammars.X]
@@ -14,4 +14,8 @@ license = "GPL-2.0"
 
 [grammars.nasal]
 repository = "https://github.com/sidi762/tree-sitter-nasal"
-rev = "master"
+rev = "cc1b3b46f3814843c0e6d7289e3ba3d4f903a227"
+
+# [grammars.swift]
+# repository = "https://github.com/alex-pinkus/tree-sitter-swift"
+# commit = "33e56e4e2a6455f3fd4e04cfe5c7a314d498612d"

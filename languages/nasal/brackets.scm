@@ -3,5 +3,3 @@
   "[" "]"
   "{" "}"
 ] @bracket
-
-(string) @bracket
